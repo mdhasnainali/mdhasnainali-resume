@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,10 +21,10 @@ body {
 
 body>main {
     border: 2px solid gray;
-    border-radius: 5px;
-    width: 48rem;
-    padding: 30px;
-    margin: 30px;
+    border-radius: 8px;
+    max-width: 50rem;
+    padding: 2rem;
+    margin: 2rem;
     background-color: white;
     
 }
@@ -33,11 +35,107 @@ header{
 }
 
 header >div >img{
-    width: 150px;
-    border: 1px solid black;
-    margin-right: 50px;
+    width: 9.35rem;
+    border: 1px solid gray;
+    margin-right: 3rem;
+    border-radius: 5px;
 }
 
 #full-name {
-    font-size: 50px;
+    font-size: 3.125rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.details{
+    margin-top: 1rem;
+    display: flex;
+}
+
+h3{
+    font-family: 'Fira Code', monospace;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.left{
+    margin-right: 2rem;
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+
+
+.position{
+    font-family: 'Fira Code', monospace;
+    margin-bottom: .5rem;
+}
+
+.workplace{
+    margin-top: .7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.date-time{
+    font-family: 'Fira Code', monospace;
+    font-size: .6rem;
+}
+
+.list-work{
+    list-style-type:none;
+    font-size: .8rem;
+}
+
+.list-work >li{
+    padding: 0;
+    margin: 0;
+}
+
+.fa-square-facebook:hover{
+    color: #3b5998;
+}
+
+.fa-github:hover{
+    color: #171515;
+}
+
+.fa-linkedin:hover{
+    color: #0077b5;
+}
+
+.fa-quora:hover{
+    color: #b92b27;
+}
+
+.fa-medium:hover{
+    color: #66cdaa;
+}
+
+.fa-whatsapp:hover{
+    color: #25D366;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pillowOutline{
+    font-family: 'Fira Code', monospace;
+    font-size: .8rem;
+    margin: .225rem .225rem;
+    background-color: gray;
+    padding: .125rem .225rem;
+    border-radius: .225rem;
+    color: white;
 }
